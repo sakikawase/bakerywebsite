@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: "Lora", serif;
+}
+
+h2 {
+  color: #756f63;
+  font-size: 30px;
+  letter-spacing: 1.8px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #756f63;
+  font-size: 40px;
+  letter-spacing: 1.8px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+h4 {
+  color: #756f63;
+  font-size: 30px;
+  letter-spacing: 1.8px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+h5 {
+  color: #756f63;
+  font-size: 30px;
+  letter-spacing: 1.8px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.content1 {
+  display: flex;
+  margin-top: 130px;
+}
+
+.content2 {
+  margin-top: 225px;
+}
+
+.content3 {
+  margin-top: 130px;
+}
+
+.p-content {
+  color: #756f63;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 30px 20px;
+  z-index: 1000; /* I added to keep the nav-bar in front */
+}
+
+.nav-bar a{
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: #000;
+  margin: 0 20px;
+  padding: 0 20px;
+  font-weight: 400;
+  font-size:17px;
+  letter-spacing: 1.5px;
+}
+
+.icon-img {
+    width: 24px;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+    margin-top: 80px;
+  }
+  
+.hero-img {
+    width: 100vw;
+    height: 600px;
+    object-fit: cover; 
+  }
+
+.hero-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* I added to center an element both horizontally and vertically */
+    color: #fff;
+    font-size: 65px;
+    font-weight: 300;
+  }
+  
+.hero-btn {
+    position: absolute;
+    bottom: 30%;
+    left: 45%;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    padding: 12px 30px;
+    text-decoration: none;
+    border: 1px solid;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 2;
+    font-weight: 300;
+    transition: 0.3s;
+  }
+  
+.hero-btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+.hero-sub-img {
+  width: 100vw;  
+  height: 300px;  
+  object-fit: cover;  
+}
+
+.content-intro-image img {
+  width: 40vw;
+  height: 600px;
+  object-fit: cover;
+  object-position: 50% 70%;
+}
+
+.content-intro-text {
+  padding: 0 80px;
+}
+
+.content-product {
+  display: flex;
+  justify-content: center;
+  gap: 1.5vw;
+}
+
+.content-product img {
+  width: 30vw;
+  height: 500px;
+  object-fit: cover;
+  padding-top: 1.0vw;
+}
+
+.product {
+  position: relative;
+}
+
+.product-title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.operation-hour {
+  margin-bottom: 70px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+th {
+  padding-bottom: 10px;
+}
+
+.operation-hour th {
+  font-family: "Inter", sans-serif;
+  color: #756f63;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.date {
+  padding-right: 40px;
+}
+
+.contact-link a {
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: #756f63;
+}
+
+.contact-link a:hover {
+  text-decoration: underline;
+}
+
+.address {
+  margin-top: 80px;
+}
+
+.address p {
+  margin-bottom: 40px;
+  color: #756f63;
+  font-size: 16px;
+}
+
+.footer {
+  color: #666;
+  font-size: 14px;
+  margin-top: 300px;
+  padding: 50px 0;
+}
